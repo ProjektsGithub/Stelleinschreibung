@@ -1,0 +1,140 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.eot") /* IE9 Compat Modes */;
+  src: url("../fonts/roboto-v30-latin-regular.eot?#iefix") format('embedded-opentype'), url("../fonts/roboto-v30-latin-regular.woff2") format('woff2'), url("../fonts/roboto-v30-latin-regular.woff") format('woff'), url("../fonts/roboto-v30-latin-regular.ttf") format('truetype'), url("../fonts/roboto-v30-latin-regular.svg#Roboto") format('svg') /* Legacy iOS */;
+}
+/* roboto-italic - latin */
+@font-face {
+  font-display: swap /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-italic.eot") /* IE9 Compat Modes */;
+  src: url("../fonts/roboto-v30-latin-italic.eot?#iefix") format('embedded-opentype'), url("../fonts/roboto-v30-latin-italic.woff2") format('woff2'), url("../fonts/roboto-v30-latin-italic.woff") format('woff'), url("../fonts/roboto-v30-latin-italic.ttf") format('truetype'), url("../fonts/roboto-v30-latin-italic.svg#Roboto") format('svg') /* Legacy iOS */;
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.eot") /* IE9 Compat Modes */;
+  src: url("../fonts/roboto-v30-latin-700.eot?#iefix") format('embedded-opentype'), url("../fonts/roboto-v30-latin-700.woff2") format('woff2'), url("../fonts/roboto-v30-latin-700.woff") format('woff'), url("../fonts/roboto-v30-latin-700.ttf") format('truetype'), url("../fonts/roboto-v30-latin-700.svg#Roboto") format('svg') /* Legacy iOS */;
+}
+/* roboto-700italic - latin */
+@font-face {
+  font-display: swap /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700italic.eot") /* IE9 Compat Modes */;
+  src: url("../fonts/roboto-v30-latin-700italic.eot?#iefix") format('embedded-opentype'), url("../fonts/roboto-v30-latin-700italic.woff2") format('woff2'), url("../fonts/roboto-v30-latin-700italic.woff") format('woff'), url("../fonts/roboto-v30-latin-700italic.ttf") format('truetype'), url("../fonts/roboto-v30-latin-700italic.svg#Roboto") format('svg') /* Legacy iOS */;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #ede8ed;
+}
+body * {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 780px;
+  margin: min(20px, max(0px, calc(50vw - 390px))) auto;
+  text-align: left;
+  background: #fff;
+  font-variant-ligatures: none;
+  overflow: hidden;
+  font-family: 'Roboto', Helvetica, Sans-Serif;
+  color: #4d4d4d;
+  font-size: 14px;
+  line-height: 22px;
+}
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6,
+.container p,
+.container ul,
+.container ol {
+  font-family: 'Roboto', Helvetica, Sans-Serif;
+  color: #4d4d4d;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 15px 0 3px 0;
+}
+.container h1 {
+  color: #896c89;
+  font-size: 34px;
+  line-height: 39px;
+}
+.container h2 {
+  color: #896c89;
+  font-size: 26px;
+  line-height: 29px;
+  margin-top: 5px;
+}
+.container h3 {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 3px;
+}
+.container h3 + p,
+.container h3 + ul {
+  margin-top: 3px;
+}
+.container a {
+  color: #896c89;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+.container a:hover {
+  color: #f0f;
+  transform: scale(1.02);
+}
+.container a.apply {
+  background-color: #896c89;
+  color: #fff;
+  display: inline-block;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 17px 0 10px 0;
+}
+.container a.apply:hover {
+  position: relative;
+  background-color: #f0f;
+  color: #fff;
+}
+.container ul {
+  list-style-type: none;
+}
+.container ul li {
+  padding-left: 15px;
+  position: relative;
+  margin: 2px 0;
+}
+.container ul li:before {
+  position: absolute;
+  top: 6px;
+  left: 2px;
+  content: '';
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: #896c89;
+}
+.container ul li:before ul {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
